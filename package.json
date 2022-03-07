@@ -1,0 +1,37 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "Flappy Bird Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmcbride/flappy-bird.git"
+  },
+  "author": "Jason McBride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonmcbride/flappy-bird/issues"
+  },
+  "homepage": "https://github.com/jasonmcbride/flappy-bird#readme",
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
